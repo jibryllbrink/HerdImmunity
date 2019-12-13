@@ -23,7 +23,7 @@ class Person:
             self.is_alive = False
             self.infection = None
             return False
-            
+
         ''' Generate a random number between 0.0 and 1.0 and compare to the virus's mortality_num.
         If the random number is smaller, person dies from the disease. Set the person's is alive attribute to False
         If Person survives, they become vaccinated and they have no infection (set the vaccinated attibute to True and the infection to None)
